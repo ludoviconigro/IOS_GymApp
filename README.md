@@ -26,6 +26,18 @@ L'app è stata progettata con un obiettivo: aiutare l'utente a concentrarsi sull
 - **CoreData** (già integrato per espandibilità futura)
 - **SDWebImageSwiftUI** per la gestione delle immagini animate (GIF)
 
+## 🚀 Future implementazioni
+
+- ✅ **Aggiunta di nuovi esercizi direttamente dall'app**, senza modificare il codice.
+- 📷 **Scansione automatica di una scheda cartacea**, con estrazione intelligente degli esercizi.
+- ⏱️ **Timer per il recupero** tra una serie e l’altra.
+- 📝 **Sezione note personalizzate per ogni esercizio**, per annotazioni o suggerimenti personali.
+
+## 📂 Cartella GIF
+
+La cartella `gif/` utilizzata dall’app per mostrare immagini animate è **vuota** per evitare problemi di copyright.  
+L’utente può aggiungere manualmente le GIF desiderate nel progetto Xcode, rispettando le licenze d’uso.
+
 ## 🎯 Obiettivo
 
 Questa app è stata creata per uso personale e non è destinata alla pubblicazione su App Store (almeno per ora). È pensata come strumento di supporto per chi si allena con costanza e vuole una scheda digitale sempre con sé.
