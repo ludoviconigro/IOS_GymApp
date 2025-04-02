@@ -35,7 +35,7 @@ L'app è stata progettata con un obiettivo: aiutare l'utente a concentrarsi sull
 
 ## 📂 Cartella GIF
 
-La cartella `gif/` utilizzata dall’app per mostrare immagini animate è **vuota** per evitare problemi di copyright.  
+All'interno della cartella `SchedaAllenamento/` sarebbe dovuta esserci la cartella `gif/` utilizzata dall’app per mostrare immagini animate è **vuota** per evitare problemi di copyright.  
 L’utente può aggiungere manualmente le GIF desiderate nel progetto Xcode, rispettando le licenze d’uso.
 
 ## 🎯 Obiettivo
