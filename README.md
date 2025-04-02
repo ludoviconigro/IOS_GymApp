@@ -35,10 +35,12 @@ L'app è stata progettata con un obiettivo: aiutare l'utente a concentrarsi sull
 
 ## 📂 Cartella GIF
 
-All'interno della cartella `SchedaAllenamento/` sarebbe dovuta esserci la cartella `gif/` utilizzata dall’app per mostrare immagini animate è **vuota** per evitare problemi di copyright.  
+All'interno della cartella `SchedaAllenamento/`ci sarebbe dovuta esserci la cartella `gif/`, utilizzata dall’app per mostrare immagini animate nella sezione info ad ogni esercizio.
+Seppur i riferimenti alle gif sono stati conservati nel file ContenView.swift, la Cartella non è stata pubblicata per evitare problemi di copyright.  
 L’utente può aggiungere manualmente le GIF desiderate nel progetto Xcode, rispettando le licenze d’uso.
 
 ## 🎯 Obiettivo
 
-Questa app è stata creata per uso personale e non è destinata alla pubblicazione su App Store (almeno per ora). È pensata come strumento di supporto per chi si allena con costanza e vuole una scheda digitale sempre con sé.
+Questa app è stata creata per uso personale e non è destinata alla pubblicazione su App Store (almeno per ora). 
+È pensata come strumento di supporto per il personale allenamento.
 
