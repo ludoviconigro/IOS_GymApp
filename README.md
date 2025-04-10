@@ -1,46 +1,35 @@
-# IOS_GymApp
+# 💪 Scheda Allenamento (iOS App)
 
-# 💪 Scheda Allenamento
+Una moderna app iOS sviluppata in SwiftUI per la gestione di schede di allenamento personalizzate. L'app consente di seguire i propri workout, visualizzare esercizi con immagini animate, monitorare il tempo di allenamento e tracciare l'andamento del peso corporeo.
 
-Scheda Allenamento è un'app iOS creata per uso personale che consente di organizzare, monitorare e completare i propri allenamenti in modo semplice, intuitivo e completamente offline.
+## 📱 Funzionalità principali
 
-## 📱 Caratteristiche principali
+- ✅ **Lista allenamenti**: schede suddivise per giorno e gruppo muscolare.
+- 🏋️ **Esercizi con immagini animate**: GIF per ogni esercizio.
+- ⏱ **Timer integrato per l'allenamento**.
+- 🔄 **Reset automatico** degli esercizi completati.
+- 🔔 **Timer di recupero** tra le serie (opzionale).
+- 📉 **Tracciamento peso** con grafico storico.
+- 🎨 **Temi personalizzabili** (chiaro/scuro/sistema + colore principale).
+- ⚙️ **Impostazioni flessibili** per l'esperienza utente.
 
-- **Visualizzazione degli allenamenti**: suddivisione in schede (dorso/bicipiti, petto/tricipiti, gambe/spalle) con esercizi dettagliati.
-- **Esercizi con immagini animate (GIF)**: ogni esercizio è corredato da una GIF dimostrativa.
-- **Timer integrato** per tenere traccia del tempo di allenamento.
-- **Check-off degli esercizi** per segnare quelli completati durante la sessione.
-- **Reset automatico** degli esercizi completati (opzionale).
-- **Tema e colore personalizzabili**: chiaro, scuro o automatico, con più scelte cromatiche.
-- **Design nativo SwiftUI**: interfaccia elegante, moderna e responsive.
+## 🗂 Struttura dei file
 
-## 🧠 Filosofia dell'app
+- `SchedaAllenamentoApp.swift`: entry point dell'app.
+- `ContentView.swift`: vista principale con elenco allenamenti.
+- `WorkoutDetailView.swift`: dettaglio dell’allenamento, timer, stato esercizi.
+- `Componenti.swift`: componenti riutilizzabili (`WorkoutCard`, `ExerciseCard`).
+- `Modelli.swift`: modelli dati (`Workout`, `Exercise`).
+- `PesoView.swift`: interfaccia per tracciare il peso.
+- `SettingsView.swift`: impostazioni dell'app.
+- `Themes.swift`: gestione dei temi visivi.
+- `Persistence.swift`: gestione della persistenza con CoreData.
 
-L'app è stata progettata con un obiettivo: aiutare l'utente a concentrarsi sull'allenamento, riducendo al minimo le distrazioni. Non ci sono notifiche invasive, tracking online o richieste di login. Solo te, la tua scheda e la tua forza di volontà.
+## 🧪 Tecnologie usate
 
-## 🔧 Tecnologie utilizzate
-
-- **SwiftUI** per l'interfaccia grafica
-- **AppStorage** per le preferenze utente
-- **UserDefaults + Codable** per il salvataggio dello stato degli esercizi
-- **CoreData** (già integrato per espandibilità futura)
-- **SDWebImageSwiftUI** per la gestione delle immagini animate (GIF)
-
-## 🚀 Future implementazioni
-
-- ✅ **Aggiunta di nuovi esercizi direttamente dall'app**, senza modificare il codice.
-- 📷 **Scansione automatica di una scheda cartacea**, con estrazione intelligente degli esercizi.
-- ⏱️ **Timer per il recupero** tra una serie e l’altra.
-- 📝 **Sezione note personalizzate per ogni esercizio**, per annotazioni o suggerimenti personali.
-
-## 📂 Cartella GIF
-
-All'interno della cartella `SchedaAllenamento/`ci sarebbe dovuta esserci la cartella `gif/`, utilizzata dall’app per mostrare immagini animate nella sezione info ad ogni esercizio.
-Seppur i riferimenti alle gif sono stati conservati nel file ContenView.swift, la Cartella non è stata pubblicata per evitare problemi di copyright.  
-L’utente può aggiungere manualmente le GIF desiderate nel progetto Xcode, rispettando le licenze d’uso.
-
-## 🎯 Obiettivo
-
-Questa app è stata creata per uso personale e non è destinata alla pubblicazione su App Store (almeno per ora). 
-È pensata come strumento di supporto per il personale allenamento.
-
+- **Swift 5+**
+- **SwiftUI**
+- **AppStorage / UserDefaults**
+- **Charts framework** (per il tracciamento del peso)
+- **SDWebImageSwiftUI** (per supporto GIF animate)
+- **CoreData** (struttura predisposta per la persistenza)
